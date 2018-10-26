@@ -16,7 +16,7 @@ public class FileUse {
 		if(start.list().length==0){
 			return 0;
 		}
-		
+		//count variable to count no. of files
 		int count = 0;
 		File[] arrayOfFiles = start.listFiles();
 		for(File found: arrayOfFiles){
